@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+@font-face{
+    font-family: chemikaifonti;
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+header h1{
+    background-image: url(../images/music-note\ 1.png);
+    background-repeat: no-repeat;
+    float: left;
+    background-size: 100%;
+    text-indent: -999999px;
+}
+header h1 a{
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+.shavifoni{
+    background-color: #000000;
+    height: 94px;
+    padding-top: 12px;
+    padding-left: 100px;
+}
+header li{
+    float: left;
+    margin-top: 26px;
+    margin-left: 20px;
+    
+}
+header li a{
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-family: chemikaifonti;  
+
+}
+h2{
+    font-size: 24px;
+    font-family: chemikaifonti;  
+}
+main{
+    padding: 52px 0 100px 110px;
+    clear: both;
+}
+
+.tracks{
+    width: 300px;
+    margin-top: 54px;
+    float: left;
+    margin-right: 138px;
+}
+header nav{
+    margin-left: 170px;
+}
+
+.tracks section{
+    width: 100%;
+    height: 244px;
+    border: 1px solid #000000;
+    background-image:  url(../images/sound\ 5.png);
+    background-size: 25%;
+    background-repeat: repeat-x;
+    background-position-y: 58px;
+    position: relative;
+}
+.tracks section h3{
+    margin-top: 146px;
+    margin-left: 12px;
+    font-size: 18px;
+    font-family: chemikaifonti;
+}
+.tracks section p{
+    margin-top: 12px;
+    margin-left: 12px;
+    font-size: 14px;
+    font-family: chemikaifonti;
+}
+.tracks .link{
+    margin-top: 10px;
+}
+.tracks .link a{
+    font-size: 12px;
+    color: #000000;
+    font-family: chemikaifonti;
+}
+.like{
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/like\ 1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+footer{
+    clear: both;
+    padding: 28px 18px;
+    background-color: #000000;
+    margin-top: 1488px;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/music-note\ 1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.logo a{
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+footer ul{
+    width: 100%;
+    text-align: center;
+
+}
+footer li a{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: chemikaifonti;
+}
+footer nav{
+    margin-top: 26px;
+}
+footer .rights{
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 50px;
+    font-family: chemikaifonti;
+}
+
+.social{
+    width: 50px;
+    height: 100px;
+    margin-left: 96%;
+    position: fixed;
+    top: 120px;
+    right: 0;
+}
+.fb{
+    background-image: url(../images/fb1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+}
+.insta{
+    background-image: url(../images/instagram1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.playlists{
+float: left;
+margin-right: 158px;
+}
+.playlists section ul{
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: chemikaifonti;
+}
+.playlists section li{
+    padding-top: 8px;
+}
+.playlists section li a{
+    color: #000000;
+}
+.soundwaves{
+    background-image: url(../images/sound\ 5.png);
+    background-size: 25%;
+    background-repeat: repeat-x;
+    width: 256px;
+    height: 65px;
+    clear: both;
+    position: absolute;
+    top: 550px;
+    left: 560px;
+}
+
+.playlistnewrow{
+position: absolute;
+left: 100px;
+top: 724px;
+
+}
+.playlists2{
+   margin-right: 44px;
+   float: left;
+}
+.playlists2 section ul{
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: chemikaifonti;
+}
+.playlists2 section li a{
+    color: #000000;
+}
+
+.playlists2 section li{
+    padding-top: 8px;
+}
+
+.soundwaves2{
+    background-image: url(../images/sound\ 5.png);
+    background-size: 25%;
+    background-repeat: repeat-x;
+    width: 256px;
+    height: 65px;
+    clear: both;
+    position: absolute;
+    left: 560px;
+    top: 1224px;
+}
+.thanks{
+    color: #000000;
+    font-size: 36px;
+    position: absolute;
+    left: 560px;
+    top: 1396px;
+    font-family: chemikaifonti;
+}
+
+
+
