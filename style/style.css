@@ -42,6 +42,9 @@ header li a{
     font-family: chemikaifonti;  
 
 }
+.active{
+    border-bottom: 1px solid #ffffff;
+}
 h2{
     font-size: 24px;
     font-family: chemikaifonti;  
@@ -57,6 +60,7 @@ main{
     float: left;
     margin-right: 138px;
 }
+
 header nav{
     margin-left: 170px;
 }
@@ -70,6 +74,11 @@ header nav{
     background-repeat: repeat-x;
     background-position-y: 58px;
     position: relative;
+}
+.tracks section:hover{
+    width: 303px;
+    box-shadow: 0 0 10px #5b5b5b;
+
 }
 .tracks section h3{
     margin-top: 146px;
@@ -91,6 +100,10 @@ header nav{
     color: #000000;
     font-family: chemikaifonti;
 }
+.tracks .link a:hover{
+    text-decoration: underline;
+}
+
 .like{
     width: 50px;
     height: 50px;
@@ -100,6 +113,10 @@ header nav{
     position: absolute;
     top: 0px;
     right: 0px;
+}
+.like:hover{
+    background-image: url(../images/like\ 2.png);
+    cursor: pointer;
 }
 footer{
     clear: both;
@@ -152,6 +169,7 @@ footer .rights{
     top: 120px;
     right: 0;
 }
+
 .fb{
     background-image: url(../images/fb1.png);
     background-repeat: no-repeat;
@@ -159,17 +177,30 @@ footer .rights{
     width: 50px;
     height: 50px;
 }
+.fb:hover{
+    background-image: url(../images/facebook.png);
+    cursor: pointer;
+}
 .insta{
     background-image: url(../images/instagram1.png);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 50px;
     height: 50px;
+    cursor: pointer;
+}
+.insta:hover{
+    background-image: url(../images/instagram.png);
 }
 
 .playlists{
-float: left;
-margin-right: 158px;
+    float: left;
+    margin-right: 158px;
+}
+.playlists:hover{
+    width: 303px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 .playlists section ul{
     margin-top: 50px;
@@ -203,6 +234,11 @@ top: 724px;
 .playlists2{
    margin-right: 44px;
    float: left;
+}
+.playlists2:hover{
+    width: 303px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 .playlists2 section ul{
     margin-top: 50px;
